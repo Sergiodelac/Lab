@@ -1,10 +1,9 @@
 package functions
 
-
 fun topLevelSubtraction( x: Int,  y: Int): Int{
     return x-y;
 
-    var result = topLevelSubtraction(5, 4);
+  val result = topLevelSubtraction(5, 4);
     println("TopLevelSubtraction: $result");
 }
 fun multiplication(x: Int, y: Int): Int {
